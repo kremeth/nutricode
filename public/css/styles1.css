@@ -1,0 +1,696 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("../font/RocaOne-Rg.ttf");
+}
+
+body {
+    margin: 0 0 0 0;
+    background: linear-gradient(to bottom, #fff9e7, #bcafd5);
+}
+
+div {
+    width: 100vw;
+}
+
+
+h1 {
+    font-family: "MyFont", sans-serif;
+    font-size: 70px;
+    line-height: 1;
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        line-height: 0.8;
+    }
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+a {
+    font-family: 'MyFont', sans-serif;
+    font-size: 20px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background-color: white;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.button-one {
+    width: 100%;
+    height: 20%;
+}
+
+.button-one button {
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: #eeecde;
+}
+
+.header-div {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    margin: 0 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 70px;
+}
+
+.first-part {
+    width: 100%;
+    height: 900px;
+    /* margin: 0 auto; */
+    display: flex;
+    background-image: url('../part1.png');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 450px) {
+    .first-part {
+        width: 100%;
+        height: 100vh;
+        background-image: url('../part1m.png');
+    }
+}
+
+
+.left {
+    position: relative;
+    margin: 0 0 0 16%;
+    width: 34%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-one {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 450px) {
+    .title-one {
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 55%;
+
+    }
+}
+
+
+@media screen and (min-width: 451px) {
+    .title-h1::before {
+        content: "Custom Nutrition Supplements for Your DNA Profile";
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .title-h1::before {
+        content: "Custom Nutrition Supplements for Your DNA Profile";
+        font-size: 45px;
+        font-weight: normal;
+        font-weight: bold;
+        color: white;
+    }
+}
+
+.title-p-one {
+    height: 10%;
+    width: 100%;
+    background-color: #bcafd5;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.right {
+    width: 50%;
+    height: 800px;
+    background-image: url('../product.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.title-text {
+    height: 100%;
+    margin: 0 0;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    height: 50%;
+    margin: 50% 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.title-p {
+    position: absolute;
+    height: 30%;
+    margin-top: 81%;
+    margin-left: 1%;
+    width: 100%;
+}
+
+.third-part {
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    background-image: url('../part3.png');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-and-a-half {
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    background-image: url('../part5.png');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-div-three {
+    height: 90%;
+    width: 75%;
+}
+
+.title-three {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-section {
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+
+.img-section-individual {
+    height: 100%;
+    width: 33.3%;
+}
+
+.actual-img {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actual-img img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.img-text {
+    height: 45%;
+    width: 100%;
+}
+
+.title-img-three {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-img-three h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.text-img-three {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-img-three p {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.fourth-part {
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    background-image: url('../part4.png');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-two-half {
+    height: 90%;
+    width: 75%;
+}
+
+.title-two-half {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-two-half h1 {
+    text-align: center;
+}
+
+.sections-two-half {
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.indiv-two-half {
+    width: 50%;
+    height: 100%;
+}
+
+.indiv-two-half img {
+    border-radius: 20px;
+}
+
+.image-ben {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.image-ben img {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    width: 95%;
+}
+
+.middle-div-four {
+    height: 90%;
+    width: 75%;
+}
+
+.title-four {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-four h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.product-img-four img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.two-left-square {
+    width: 15%;
+    aspect-ratio: 1/1;
+    position: relative;
+    left: 22%;
+    top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10%;
+}
+
+.two-left-sachet {
+    width: 35%;
+    aspect-ratio: 1/1;
+    position: relative;
+    left: 40%;
+    top: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20%;
+    transform: rotate(-15deg);
+}
+
+.two-left-square img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.main-four {
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+
+.button-four {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-four button {
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.product-four-one {
+    width: 50%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.product-four-two {
+    width: 50%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.product-four-one h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.product-four-two h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.product-img-four {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-title-four {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-text-four {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-text-four p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.part-five {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../part5.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.fifth-part {
+    height: 90%;
+    width: 75%;
+}
+
+.fifth-title {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fifth-main {
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.fifth-section {
+    width: 25%;
+    height: 100%;
+}
+
+.fifth-section-top {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth-section-top img {
+    width: 80%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 100%;
+
+}
+
+.fifth-section-bottom {
+    width: 100%;
+    height: 40%;
+}
+
+.name-section {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-section h1 {
+    font-size: 30px;
+}
+
+.job-section {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.job-section h1 {
+    font-size: 20px;
+}
+
+.edu-section {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2%;
+}
+
+.edu-section p {
+    font-size: 15px;
+}
+
+.part-six {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../part6.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sixth-part {
+    height: 90%;
+    width: 75%;
+}
+
+.six-title {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.six-title h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.six-main {
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+
+.six-footer {
+    height: 20%;
+    width: 100%;
+}
+
+.six-mail {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail-inputwrap {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.six-mail form {
+    width: 400%;
+}
+
+.six-mail input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.six-mail input::placeholder {
+    color: black;
+}
+
+.six-button {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six-button button {
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.bottom-six {
+    width: 16.6%;
+    height: 100%;
+    float: right;
+}
+
+.six-follow {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+}
+
+.six-follow h1 {
+    font-size: 60px;
+}
+
+.six-icons {
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+.six-icon {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six-icon img {
+    width: 80%;
+    aspect-ratio: 1/1;
+}
+
+.six-two {
+    width: 80%;
+    aspect-ratio: 1/1;
+    margin-right: 15%;
+}
