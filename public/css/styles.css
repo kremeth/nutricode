@@ -140,10 +140,12 @@ h1 {
 }
 
 @media screen and (max-width: 425px) {
-    .title h1::before {
+    .title.one h1::before {
         font-family: "MyFont", sans-serif;
         content: 'Personalised daily supplements based on your blood test!';
         font-size: 9vw;
+        top: 5vh;
+        position: relative;
     }
 }
 
@@ -167,6 +169,7 @@ h1 {
 
 @media screen and (max-width: 425px) {
     .profile-pic {
+        display: none;
         width: 18vw;
         left: 41vw;
         top: 28vh;
@@ -194,10 +197,10 @@ h1 {
 .profile-image {
     position: relative;
     top: 10vh;
-    width: 35vw;
+    width: 50vw;
     height: 80%;
     background-image: url("../example-ben.png");
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     border-radius: 10%;
@@ -206,10 +209,12 @@ h1 {
 
 @media screen and (max-width: 425px) {
     .profile-image {
-        width: 50vw;
-        height: 70%;
-        background-image: url("../example-benm.png");
-        top: 8vh;
+        aspect-ratio: 1/1;
+        height: 80%;
+        background-image: url("../example.png");
+        top: 14vh;
+        width: 60vw;
+        border-radius: 0px;
     }
 }
 
@@ -245,6 +250,7 @@ h1 {
 
 @media screen and (max-width: 425px) {
     .title-daily-image {
+        display: none;
         width: 50%;
         bottom: 3vh;
     }
