@@ -91,7 +91,7 @@ header h1 {
 }
 
 .section-one {
-    background-image: url('../part1.png');
+    background-image: url('https://storage.googleapis.com/nutricode/part1.png');
 }
 
 .section-wrapper {
@@ -157,7 +157,7 @@ h1 {
     position: absolute;
     left: 47vw;
     top: 27vh;
-    background-image: url('../ben-portrait.jpg');
+    background-image: url('https://storage.googleapis.com/nutricode/ben-portrait.jpg');
     background-repeat: no-repeat;
     background-size: 400%;
     background-position: center center;
@@ -199,7 +199,7 @@ h1 {
     top: 10vh;
     width: 50vw;
     height: 80%;
-    background-image: url("../example-ben.png");
+    background-image: url("https://storage.googleapis.com/nutricode/example-ben.png");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -211,7 +211,7 @@ h1 {
     .profile-image {
         aspect-ratio: 1/1;
         height: 80%;
-        background-image: url("../example.png");
+        background-image: url("https://storage.googleapis.com/nutricode/example.png");
         top: 14vh;
         width: 60vw;
         border-radius: 0px;
@@ -224,7 +224,7 @@ h1 {
     position: absolute;
     bottom: 0;
     left: 5%;
-    background-image: url('../blood-test.png');
+    background-image: url('https://storage.googleapis.com/nutricode/blood-test.png');
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center center;
@@ -242,7 +242,7 @@ h1 {
     position: absolute;
     bottom: 0;
     right: 2%;
-    background-image: url('../daily.png');
+    background-image: url('https://storage.googleapis.com/nutricode/daily.png');
     background-repeat: no-repeat;
     background-size: 90%;
     background-position: center center;
@@ -257,7 +257,7 @@ h1 {
 }
 
 .section-two {
-    background-image: url("../part3.png");
+    background-image: url("https://storage.googleapis.com/nutricode/part3.png");
 }
 
 @media screen and (min-width: 426px) {
@@ -433,21 +433,21 @@ h1 {
 
 
 .how-image.first-how {
-    background-image: url('../img1.png');
+    background-image: url('https://storage.googleapis.com/nutricode/img1.png');
     height: 90%;
     aspect-ratio: 1/1;
     margin-bottom: 13%;
 }
 
 .how-image.second-how {
-    background-image: url('../img.jpg');
+    background-image: url('https://storage.googleapis.com/nutricode/img.jpg');
     height: 90%;
     aspect-ratio: 1/1;
     margin-bottom: 13%;
 }
 
 .how-image.third-how {
-    background-image: url('../img3.jpg');
+    background-image: url('https://storage.googleapis.com/nutricode/img3.jpg');
     height: 90%;
     aspect-ratio: 1/1;
     margin-bottom: 13%;
@@ -579,11 +579,11 @@ h1 {
 }
 
 .section-three {
-    background-image: url('../part4.png');
+    background-image: url('https://storage.googleapis.com/nutricode/part4.png');
 }
 
 .section-four {
-    background-image: url('../part5.png');
+    background-image: url('https://storage.googleapis.com/nutricode/part5.png');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -679,19 +679,19 @@ h1 {
 }
 
 .pic-four.krem {
-    background-image: url('../krem.jpg');
+    background-image: url('https://storage.googleapis.com/nutricode/krem.jpg');
 }
 
 .pic-four.serene {
-    background-image: url('../serene.jpg');
+    background-image: url('https://storage.googleapis.com/nutricode/serene.jpg');
 }
 
 .pic-four.jasmine {
-    background-image: url('../jasmine.jpg');
+    background-image: url('https://storage.googleapis.com/nutricode/jasmine.jpg');
 }
 
 .pic-four.romain {
-    background-image: url('../romain.jpeg');
+    background-image: url('https://storage.googleapis.com/nutricode/romain.jpeg');
 }
 
 .name-wrapper {
@@ -756,7 +756,7 @@ h1 {
 }
 
 .section-five {
-    background-image: url('../part6.png');
+    background-image: url('https://storage.googleapis.com/nutricode/part6.png');
 }
 
 .title-five {
